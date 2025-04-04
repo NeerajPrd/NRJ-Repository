@@ -90,6 +90,3 @@ async function initGame() {
         guessInput.value = "";
     });
 }
-
-// Start the game
-initGame();
