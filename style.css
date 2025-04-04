@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tile.filled {
+    border-color: #333;
+}
+
+.tile.correct {
+    background-color: #6aaa64; /* Green */
+    border-color: #6aaa64;
+}
+
+.tile.present {
+    background-color: #c9b458; /* Yellow */
+    border-color: #c9b458;
+}
+
+.tile.absent {
+    background-color: #787c7e; /* Gray */
+    border-color: #787c7e;
+}
