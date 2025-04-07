@@ -5,7 +5,7 @@ const WORDS = [
     "along", "admit", "below", "adopt", "alert", "argue", "among", "after", "anger", "award",
     "again", "angle", "blame", "agree", "blind", "apple", "ahead", "buyer", "angry", "basic",
     "being", "aware", "board", "block", "china", "cover", "cable", "chose", "crash", "brain",
-    "carry", "claim", "cream", "catch", "class", "crime", "bread", "cause", "clean", "cross",
+    "carry", "claim", "cream", "catch", "class", "crime", "bread", "cause", "clean", "cross", "mango", 
     "break", "chain", "clear", "crowd", "chair", "click", "crown", "chart", "clock", "curve",
     "bring", "chase", "close", "cycle", "cheap", "coach", "daily", "broke", "check", "coast", "dance", "brown", "chest", "could", "build", "count", "child",
 "court", "death", "entry", "forth", "group", "delay", "equal", "forty", "grown", "guard",
